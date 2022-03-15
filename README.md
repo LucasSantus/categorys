@@ -1,4 +1,4 @@
-# categorys
+# Vídeos
 
 passos realizados
 
@@ -30,4 +30,10 @@ passos realizados
 
 ```
 yarn add typeorm reflect-metadata pg
+```
+
+**create migration**
+
+```
+yarn typeorm migration:create -n CreateCategories
 ```
