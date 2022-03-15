@@ -51,5 +51,27 @@ _requisitos_
 yarn typeorm migration:run
 ```
 
+**revert migration**
+
+_Comando para reverter as migrações._
+
+```
+yarn typeorm migration:revert
+```
+
+**install dependencies uuid**
+
+```
+yarn add uuid
+```
+
+**install dependencies uuid dev**
+
+```
+yarn add @types/uuid -D
+```
+
+
+
 Code Drops & Rockeatseat
 https://www.youtube.com/watch?v=9AO2hZJsHrs
