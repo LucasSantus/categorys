@@ -3,8 +3,7 @@ import { v4 as uuid } from "uuid";
 import { Category } from "./Category";
 
 @Entity("videos")
-export class Videos{
-
+export class Video{
     @PrimaryColumn()
     id: string;
 
