@@ -37,3 +37,19 @@ yarn add typeorm reflect-metadata pg
 ```
 yarn typeorm migration:create -n CreateCategories
 ```
+
+**run migration**
+
+_requisitos_
+
+> Necessário postgress instalado,
+> Drivers postgress configurado,
+> Superuser com login&senha adicionado e configurado,
+> Banco de dados code_drops_crud criado.
+
+```
+yarn typeorm migration:run
+```
+
+Code Drops & Rockeatseat
+https://www.youtube.com/watch?v=9AO2hZJsHrs
