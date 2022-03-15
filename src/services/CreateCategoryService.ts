@@ -11,7 +11,7 @@ export class CreateCategoryService{
         const repo = getRepository(Category);
 
         if(await repo.findOne({name})){
-            return new Error("Category already exists()")
+            return new Error("Category already exists");
         }
 
         const category = repo.create({
